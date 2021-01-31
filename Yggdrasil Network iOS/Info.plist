@@ -62,7 +62,7 @@
 			<key>UTTypeIconFiles</key>
 			<array/>
 			<key>UTTypeIdentifier</key>
-			<string>eu.neilalexander.yggdrasil.configuration</string>
+			<string>com.dulcedosystems.yggdrasil.configuration</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>

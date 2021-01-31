@@ -154,9 +154,9 @@ class ConfigurationProxy: PlatformItemSource {
         if let data = self.data() {
             let providerProtocol = NETunnelProviderProtocol()
             #if os(iOS)
-            providerProtocol.providerBundleIdentifier = "eu.neilalexander.yggdrasil.extension"
+            providerProtocol.providerBundleIdentifier = "com.dulcedosystems.yggdrasil.extension"
             #elseif os(OSX)
-            providerProtocol.providerBundleIdentifier = "eu.neilalexander.yggdrasilmac.extension"
+            providerProtocol.providerBundleIdentifier = "com.dulcedosystems.yggdrasilmac.extension"
             #endif
             providerProtocol.providerConfiguration = [ "json": data ]
             providerProtocol.serverAddress = "yggdrasil"

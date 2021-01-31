@@ -261,7 +261,6 @@
 				TargetAttributes = {
 					E593CE6A1DF8FC3C00D7265D = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = R9AV23TXF2;
 						LastSwiftMigration = 1030;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -281,9 +280,7 @@
 					};
 					E593CE961DF905AF00D7265D = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = R9AV23TXF2;
 						LastSwiftMigration = 1030;
-						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -525,7 +522,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 21;
-				DEVELOPMENT_TEAM = R9AV23TXF2;
+				DEVELOPMENT_TEAM = 358YRZ9P3L;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -537,7 +534,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = eu.neilalexander.yggdrasil;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dulcedosystems.yggdrasil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -556,7 +553,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 21;
-				DEVELOPMENT_TEAM = R9AV23TXF2;
+				DEVELOPMENT_TEAM = 358YRZ9P3L;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -568,7 +565,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = eu.neilalexander.yggdrasil;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dulcedosystems.yggdrasil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
@@ -583,7 +580,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 21;
-				DEVELOPMENT_TEAM = R9AV23TXF2;
+				DEVELOPMENT_TEAM = 358YRZ9P3L;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -596,7 +593,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = eu.neilalexander.yggdrasil.extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dulcedosystems.yggdrasil.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -609,10 +606,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = YggdrasilNetworkExtension.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 21;
-				DEVELOPMENT_TEAM = R9AV23TXF2;
+				DEVELOPMENT_TEAM = 358YRZ9P3L;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -625,7 +622,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = eu.neilalexander.yggdrasil.extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dulcedosystems.yggdrasil.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "8ce353d5-fd5f-4d5e-b664-8ad294091125";
 				PROVISIONING_PROFILE_SPECIFIER = "";

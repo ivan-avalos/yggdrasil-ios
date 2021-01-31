@@ -78,7 +78,7 @@ class SettingsViewController: UITableViewController, UIDocumentBrowserViewContro
             switch indexPath.last {
             case 0: // import
                 if #available(iOS 11.0, *) {
-                    let open = UIDocumentBrowserViewController(forOpeningFilesWithContentTypes: ["eu.neilalexander.yggdrasil.configuration"])
+                    let open = UIDocumentBrowserViewController(forOpeningFilesWithContentTypes: ["com.dulcedosystems.yggdrasil.configuration"])
                     open.delegate = self
                     open.allowsDocumentCreation = false
                     open.allowsPickingMultipleItems = false

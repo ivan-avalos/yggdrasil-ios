@@ -14,9 +14,9 @@ class CrossPlatformAppDelegate: PlatformAppDelegate {
     var vpnManager: NETunnelProviderManager = NETunnelProviderManager()
 
     #if os(iOS)
-    let yggdrasilComponent = "eu.neilalexander.yggdrasil.extension"
+    let yggdrasilComponent = "com.dulcedosystems.yggdrasil.extension"
     #elseif os(OSX)
-    let yggdrasilComponent = "eu.neilalexander.yggdrasilmac.extension"
+    let yggdrasilComponent = "com.dulcedosystems.yggdrasilmac.extension"
     #endif
     
     var yggdrasilConfig: ConfigurationProxy? = nil
